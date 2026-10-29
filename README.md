@@ -9,7 +9,7 @@ least *N* failures (default: 5 in 60 s), it raises an alert.
 
 ```
 $ python detector.py /var/log/auth.log
-Mar 01 09:08:50  203.0.113.7      user=mrossi  failures=7
+Mar 01 09:08:50  203.0.113.7      user=alice   failures=7
 ```
 
 Exit code is `1` when alerts were found, `0` otherwise, so it can gate a cron
